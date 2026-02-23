@@ -17,7 +17,7 @@ const ScrollRoad = () => {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top top",
-          end: "+=2000",
+          end: "bottom+=1000 top",
           scrub: 1,
           pin: true,
         },
@@ -30,7 +30,7 @@ const ScrollRoad = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative h-screen bg-gray-200 overflow-hidden"
+      className="relative h-[200vh] bg-gray-200 overflow-hidden"
     >
       <div className="absolute inset-0 flex items-center">
         <div className="absolute left-0 w-32 h-40 bg-green-500 z-10" />
