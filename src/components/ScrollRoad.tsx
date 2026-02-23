@@ -46,7 +46,9 @@ const ScrollRoad = () => {
         ref={carRef}
         src={car}
         alt="car"
-        className="absolute left-0 top-1/2 -translate-y-1/2 w-64 z-20"
+       className="absolute left-0 top-1/2 -translate-y-1/2 
+           w-[180px] sm:w-[220px] md:w-[280px] 
+           h-auto object-contain z-20"
       />
     </section>
   );
